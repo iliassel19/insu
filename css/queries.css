@@ -1,0 +1,263 @@
+@media (max-width: 375px) {
+  .all {
+    overflow-x: hidden;
+  }
+  html {
+    font-size: 50%;
+  }
+  .pattern-1,
+  .pattern-2 {
+    width: 0;
+  }
+
+  /*********************************************/
+  /*********************************************/
+  /* NAVIGATION AND HEADER START*/
+
+  .header {
+    padding: 3.2rem;
+  }
+  .nav-list {
+    background-image: url(/insure-landing-page-master/images/bg-pattern-mobile-nav.svg);
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: hsl(256, 26%, 20%);
+    padding-top: 6.4rem;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+  .show {
+    right: 0%;
+    opacity: 1;
+  }
+  .nav-list-item a {
+    color: #fff;
+    font-size: 2rem;
+    position: relative;
+  }
+  .nav-list-item a:hover {
+    color: #fff;
+    transition: 0.3s linear all;
+  }
+  .nav-list-item a::after {
+    content: "";
+    width: 0%;
+    height: 0.2rem;
+    background: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.3s linear all;
+  }
+  .nav-list-item:hover a::after {
+    width: 100%;
+  }
+  /* .bg-nav {
+    display: block;
+  } */
+  .nav-img {
+    width: 100%;
+  }
+  .btn {
+    border: #fff 0.2rem solid;
+    padding: 1.2rem 9.6rem;
+    margin-bottom: 2.8rem;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+
+  .btn:hover {
+    background: #fff;
+    transition: 0.3s linear all;
+    color: hsl(256, 26%, 20%);
+    transition: 0.3s linear all;
+  }
+
+  .btns {
+    display: block;
+    position: relative;
+  }
+  .close {
+    display: none;
+  }
+
+  /* NAVIGATION AND HEADER END*/
+
+  /*********************************************/
+  /*********************************************/
+
+  /* HERO START*/
+
+  .pattern-3 {
+    display: block;
+  }
+
+  .pattern-3 {
+    top: 162%;
+    left: 68%;
+  }
+  .mobile-hero {
+    background: hsl(256, 26%, 20%);
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* row-gap: 4.8rem; */
+
+    padding: 0;
+  }
+  .text-box {
+    padding: 9.6rem 4rem;
+    background: hsl(256, 26%, 20%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-row: 2/3;
+    background-image: url(/insure-landing-page-master/images/pattern-mobile-2.svg);
+    background-repeat: no-repeat;
+  }
+  .btn-hero {
+    padding: 1.2rem 3.2rem;
+    align-self: center;
+  }
+  .img-box {
+    background: hsl(256, 26%, 20%);
+    padding-top: 0;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .img-box img {
+    width: 100%;
+
+    /* height: 50%; */
+  }
+  .primary-heading {
+    font-size: 5.4rem;
+    line-height: 1.2;
+  }
+  .primary-heading::after {
+    width: 0;
+  }
+  .text-description {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  /* HERO END*/
+
+  /*********************************************/
+  /*********************************************/
+  /* FEATURES START*/
+
+  .section-features {
+    padding: 75% 0 0 0;
+    margin-top: 100%;
+  }
+  .mobile-features {
+    padding: 12.8rem 4.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .feature-icon {
+    align-self: center;
+  }
+  .secondary-heading {
+    font-size: 4.8rem;
+  }
+  .secondary-heading::before {
+    width: 50%;
+    height: 0.2rem;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .tertiary-heading {
+    align-self: center;
+  }
+
+  .how-we-work-section {
+    padding: 0 3.2rem;
+  }
+  .how-we-work {
+    padding: 9.8rem 0;
+    background-image: url(/insure-landing-page-master/images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+  .how-heading {
+    font-size: 5rem;
+    text-align: center;
+  }
+  .btn-how {
+    font-size: 1.6rem;
+    padding: 1.2rem 3.2rem;
+  }
+  .mobile-how {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6.4rem;
+  }
+
+  /* FEATURES END*/
+
+  /*********************************************/
+  /*********************************************/
+
+  /* FOOTER START*/
+
+  .section-footer {
+    background-image: url(/insure-landing-page-master/images/bg-pattern-footer-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top left;
+  }
+  .mobile-footer {
+    padding: 6rem 2.4rem;
+  }
+  .logos {
+    padding-top: 4.8rem;
+    flex-direction: column;
+    gap: 4.2rem;
+  }
+  .logos::after {
+    top: 125%;
+  }
+  .socials {
+    gap: 2.4rem;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4.8rem;
+  }
+
+  /* FOOTER START*/
+
+  /*********************************************/
+  /*********************************************/
+}
