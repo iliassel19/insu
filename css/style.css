@@ -212,13 +212,14 @@
   padding: 4.8rem 8rem;
   overflow: hidden;
   background-color: hsl(256, 26%, 20%);
-  /* background-image: url(/insure-landing-page-master/images/bg-pattern-how-we-work-desktop.svg);
+  background-image: url(/insure-landing-page-master/images/bg-pattern-how-we-work-desktop.svg);
   background-repeat: no-repeat;
-  background-position: right; */
+  background-size: auto;
+  background-position: right;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  clear: both;
+  /* clear: both; */
 }
 .how-heading {
   font-family: "DM Serif Display", serif;
@@ -243,12 +244,12 @@
 
   transition: 0.3s linear all;
 }
-.pattern-how {
+/* .pattern-how {
   width: auto;
   position: absolute;
   right: 0%;
   top: -12%;
-}
+} */
 /*********************************************/
 /*********************************************/
 
@@ -259,11 +260,11 @@
   background-color: hsl(0, 0%, 98%);
   /* overflow: hidden; */
   position: relative;
-  clear: both;
-  /* background-image: url(/insure-landing-page-master/images/bg-pattern-footer-desktop.svg);
+  /* clear: both; */
+  background-image: url(/insure-landing-page-master/images/bg-pattern-footer-desktop.svg);
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: top left; */
+  background-position: top left;
 }
 
 .footer-container {
@@ -316,14 +317,13 @@ a:hover .social {
 .link a:hover {
   text-decoration: underline hsl(270, 9%, 17%) solid;
 }
-
+/* 
 .pattern-footer {
   width: 41%;
   position: absolute;
   top: 0%;
   left: -2%;
-}
+} */
 
 /*********************************************/
 /*********************************************/
-
