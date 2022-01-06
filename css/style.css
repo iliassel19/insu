@@ -53,7 +53,7 @@
 /* HERO SECTION */
 .section-hero {
   background: hsl(256, 26%, 20%);
-  height: 100vh;
+  height: 50vh;
 }
 .container {
   padding: 8rem 13.8rem;
